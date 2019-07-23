@@ -18,6 +18,4 @@ public class MyArrayDataException extends Exception{
         System.err.println("Ошибка в массиве №" + mainArray + ", ячейка №" + insideArray);
         System.err.println("Данные в проблемной ячейке == " + mass[mainArray][insideArray]);
     }
-
-
 }
